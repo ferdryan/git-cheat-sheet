@@ -1,0 +1,16 @@
+Workflow:
+1. Modified     : (add, edit, delete) dan belum disimpan permanen ke repository
+2. Staged       : Menandai file yang akan disimpan ke repository
+3. Committed    : data sudah aman dan disimpan di repository
+
+Tree Section:
+1. Working Directory    -> Modifikasi File 
+2. Staging Area         -> Staged (git add [file])
+3. Repository           -> Commited (git commit -m "input message")
+
+
+Untracked files         : files (MODIFIED) yang belum di (git add)
+Changes to be commited  : files (STAGED) yang sudah di (git add) 
+    -> Untuk unstaged : git rm --cached "file" 
+Commited Files          : files "COMMITED" yang sudah ditambahkan pada repo dan hilang dari working tree
+

@@ -1,0 +1,8 @@
+// Create Repository -> git init 
+git init
+////////////////////////////////
+
+
+// Check Status Perubahan -> git status
+git Status
+////////////////////////////////////////

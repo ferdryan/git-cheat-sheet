@@ -1,0 +1,9 @@
+Setiap Perubahan disebut Snapshot
+Snapshot akan di-hash (SHA1) dan menghasilkan string sebagai identitas perubahan file
+
+Hash jika dilakukan berdasarkan parent, author dan message
+Setiap perubahan yang terjadi pada snapshot sebelumnya akan menimbulkan efek berantai atau semua hash berikutnya akan berubah
+
+HEAD : Pointer yang menunjuk hash terakhir -> mirip konsel stack linkedlist
+
+Melihat Perubahan : git diff

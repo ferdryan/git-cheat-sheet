@@ -1,0 +1,13 @@
+// Config User///////////////////////////////////
+git config --global user.name "User Name"
+git config --global user.email "email@email.com"
+
+////////////////////////////////////////////////
+
+
+// Config Default Editor/////////////////////////////////////////////////////////////////
+git config --global core.editor "code --wait"
+git config --global diff.tool "default-difftool"
+git config --global difftool.default-difftool.cmd "code --wait --diff \$LOCAL \$REMOTE"
+git config --global init.defaultBranch master
+/////////////////////////////////////////////////////////////////////////////////////////
